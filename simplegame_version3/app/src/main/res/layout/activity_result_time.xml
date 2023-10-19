@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ResultTimeActivity">
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="338dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:text="Решено:"
+        android:textSize='10pt'
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="307dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="496dp"
+        android:text="Меню"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonErrors"
+        android:layout_width="216dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="224dp"
+        android:text="Посмотреть ошибки"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewErrors"
+        android:layout_width="341dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
